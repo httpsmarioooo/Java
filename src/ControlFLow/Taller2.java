@@ -43,7 +43,7 @@ public class Taller2 {
         System.out.println("Que tipo de animal tienes (perro, gato, ave, otro) : ");
         String tipoAnimal = scanner.nextLine().toLowerCase();
         System.out.println("Cuantos años tiene la mascota?: ");
-        int añosMascota = scanner.nextInt();
+        int anosMascota = scanner.nextInt();
         scanner.nextLine(); // ← limpia el salto de línea pendiente
 
         String respuesta;
@@ -52,7 +52,7 @@ public class Taller2 {
             case "perro":
                 System.out.println("Hola, soy Carlos y soy especialista en atender a perros.");
 
-                if (añosMascota > 5) {
+                if (anosMascota > 5) {
                     System.out.println("Se recomienda añadirle una vacuna, ya que a los animales mayores de 5 años les es más frecuente contraer nuevas enfermedades.");
                 }
 
@@ -75,7 +75,7 @@ public class Taller2 {
             case "gato":
                 System.out.println("Hola soy David y soy especialista en antender a gatos.");
 
-                if (añosMascota > 5){
+                if (anosMascota > 5){
                     System.out.println("Se recomienda añadirle una vacuna, ya que a los animales mayores de 5 años, son frecuentes a contraer nuevas enfermedades.");
                 }
 
@@ -128,18 +128,15 @@ public class Taller2 {
             default:
                 System.out.println("Tipo de vehículo no válido.");
         }
-
     }
-
-
 
     public static void parqueadero(){
             Scanner scanner = new Scanner(System.in);
 
             // Precios base por tipo de vehículo
-            final double COSTO_AUTO = 5000;
-            final double COSTO_MOTO = 3000;
-            final double COSTO_BICICLETA = 1000;
+            final int COSTO_AUTO = 5000;
+            final int COSTO_MOTO = 3000;
+            final int COSTO_BICICLETA = 1000;
 
             System.out.print("Tipo de vehículo (auto, moto, bicicleta): ");
             String tipoVehiculo = scanner.nextLine().toLowerCase();
@@ -181,5 +178,60 @@ public class Taller2 {
 
             System.out.printf("El costo total del parqueo es: $%.2f%n", costoBase);
         }
-    }
+
+
+        public static void tiendaRopa() {
+        Scanner scanner = new Scanner(System.in);
+
+            // Precios por tipo de prenda
+            final double PRECIO_CAMISA = 25.0;
+            final double PRECIO_PANTALON = 40.0;
+            final double PRECIO_CHAQUETA = 60.0;
+            int opcion;
+            double precioUnitario = 0;
+
+            do {
+                System.out.println("Bienvenido a la tienda de ropa");
+                System.out.println("Seleccione el tipo de prenda que desea comprar:");
+                System.out.println("1. Camisa");
+                System.out.println("2. Pantalón");
+                System.out.println("3. Chaqueta");
+                System.out.println("4. Salir");
+
+                opcion = scanner.nextInt();
+
+                switch (opcion) {
+                    case 1:
+                        precioUnitario = PRECIO_CAMISA;
+                        break;
+                    case 2:
+                        precioUnitario = PRECIO_PANTALON;
+                        break;
+                    case 3: ;
+                        precioUnitario = PRECIO_CHAQUETA;
+                        break;
+                    case 4:
+                        System.out.println("¡Gracias por su visita! ¡Hasta luego!");
+                        break;
+                    default:
+                        System.out.println("Opción no válida. Intente nuevamente.");
+                }
+
+                if (opcion >= 1 && opcion <= 3) {
+                    System.out.print("Ingrese la cantidad de prendas: ");
+                    int cantidad = scanner.nextInt();
+
+                    // Calcular el total
+                    double total = precioUnitario * cantidad;
+
+                    if (cantidad > 5) {
+                        total *= 0.85; // Aplica 15%
+                    }
+
+                    System.out.println("Total a pagar: " +total);
+                }
+
+            } while (opcion != 4);
+        }
+}
 

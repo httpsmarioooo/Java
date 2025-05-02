@@ -30,7 +30,9 @@ public class Main {
 //        Taller2.supermercado();
 //        Taller2.veterinaria();
 //        Taller2.controlParqueadero();
-        Taller2.parqueadero();
+//        Taller2.parqueadero();
+        Taller2.tiendaRopa();
+
 
         scanner.close(); // Cerrar Scanner
     }
