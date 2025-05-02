@@ -28,7 +28,9 @@ public class Main {
 //        sugerirClasificacion(animal); // Llamar al metodo
 
 //        Taller2.supermercado();
-        Taller2.veterinaria();
+//        Taller2.veterinaria();
+//        Taller2.controlParqueadero();
+        Taller2.parqueadero();
 
         scanner.close(); // Cerrar Scanner
     }
