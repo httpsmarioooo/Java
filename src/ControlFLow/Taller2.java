@@ -145,7 +145,6 @@ public class Taller2 {
             int hora = scanner.nextInt();
 
             double costoBase;
-
             switch (tipoVehiculo) {
                 case "auto":
                     costoBase = COSTO_AUTO;
@@ -168,7 +167,6 @@ public class Taller2 {
 
             System.out.printf("El costo total del parqueo es: $%.2f%n", costoBase);
         }
-
 
         public static void tiendaRopa() {
         Scanner scanner = new Scanner(System.in);
