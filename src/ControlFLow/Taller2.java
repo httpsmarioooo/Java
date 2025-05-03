@@ -142,17 +142,7 @@ public class Taller2 {
             String tipoVehiculo = scanner.nextLine().toLowerCase();
 
             System.out.print("Hora de llegada (formato 24 horas, solo la hora): ");
-            int hora;
-            try {
-                hora = Integer.parseInt(scanner.nextLine());
-                if (hora < 0 || hora > 23) {
-                    System.out.println("La hora debe estar entre 0 y 23.");
-                    return;
-                }
-            } catch (NumberFormatException e) {
-                System.out.println("Hora inválida.");
-                return;
-            }
+            int hora = scanner.nextInt();
 
             double costoBase;
 
