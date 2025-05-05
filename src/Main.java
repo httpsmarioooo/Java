@@ -3,6 +3,9 @@
 import ControlFLow.ControlFlow;
 import ControlFLow.Taller2;
 import java.util.Scanner;
+import Bucles.Bucles;
+import Bucles.PiedraPapelTijera;
+import Bucles.Taller3;
 
 import static ControlFLow.ControlFlow.sugerirClasificacion;
 
@@ -30,8 +33,14 @@ public class Main {
 //        Taller2.supermercado();
 //        Taller2.veterinaria();
 //        Taller2.controlParqueadero();
-        Taller2.parqueadero();
+//        Taller2.parqueadero();
 //        Taller2.tiendaRopa();
+//        Bucles.uwu();
+//        PiedraPapelTijera.juego();
+//        Taller3.puntoUno();
+//        Taller3.puntoDos();
+        Taller3.puntoTres();
+
 
 
         scanner.close(); // Cerrar Scanner
