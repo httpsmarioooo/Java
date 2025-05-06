@@ -1,13 +1,12 @@
 //import VariablesYTiposDeDatos.Taller1;
 //import OperadoresLogicos.OperadoresLogicos;
-import ControlFLow.ControlFlow;
-import ControlFLow.Taller2;
 import java.util.Scanner;
-import Bucles.Bucles;
-import Bucles.PiedraPapelTijera;
-import Bucles.Taller3;
 
-import static ControlFLow.ControlFlow.sugerirClasificacion;
+import Metodos.Calificaciones;
+import Metodos.Conversiones;
+import Metodos.Conversiones;
+import static Metodos.Conversiones.mostrar;
+import Metodos.Calculadora;
 
 public class Main {
     public static void main(String[]args){
@@ -39,7 +38,15 @@ public class Main {
 //        PiedraPapelTijera.juego();
 //        Taller3.puntoUno();
 //        Taller3.puntoDos();
-        Taller3.puntoTres();
+//        Taller3.puntoTres();
+
+//        double metros = 2.5;
+//        double kilogramos = 70;
+//        double celcius = 25;
+//        Conversiones.mostrar(metros, kilogramos, celcius);
+//        Calificaciones.mostrar(10,20,30);
+
+        Calculadora.mostrar();
 
 
 
