@@ -7,6 +7,7 @@ import Metodos.Conversiones;
 import Metodos.Conversiones;
 import static Metodos.Conversiones.mostrar;
 import Metodos.Calculadora;
+import Metodos.Jodido;
 
 public class Main {
     public static void main(String[]args){
@@ -45,8 +46,8 @@ public class Main {
 //        double celcius = 25;
 //        Conversiones.mostrar(metros, kilogramos, celcius);
 //        Calificaciones.mostrar(10,20,30);
-
-        Calculadora.mostrar();
+//        Calculadora.mostrar();
+        Jodido.mostrar();
 
 
 
