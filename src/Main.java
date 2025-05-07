@@ -9,6 +9,11 @@ import static Metodos.Conversiones.mostrar;
 import Metodos.Calculadora;
 import Metodos.Jodido;
 
+import Colecciones.Biblioteca;
+import Colecciones.Directorio;
+import Colecciones.ListaDeTareas;
+
+
 public class Main {
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
@@ -47,8 +52,10 @@ public class Main {
 //        Conversiones.mostrar(metros, kilogramos, celcius);
 //        Calificaciones.mostrar(10,20,30);
 //        Calculadora.mostrar();
-        Jodido.mostrar();
+//        Jodido.mostrar();
 
+//        ListaDeTareas.mostrar();
+        Biblioteca.mostrar();
 
 
         scanner.close(); // Cerrar Scanner

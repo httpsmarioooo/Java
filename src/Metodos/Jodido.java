@@ -47,7 +47,6 @@ public class Jodido {
     public static void mostrar(){
         int opcion;
         String opcionDos;
-
         do {
             System.out.println("Lista de productos");
             System.out.println("1. Agregar productos");
