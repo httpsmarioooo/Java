@@ -14,7 +14,8 @@ La solución la encuentras en la carpeta:
 
 
 
-TALLER JAVA 3 
+TALLER JAVA 6 
+
 La solución la encuentras en la carpeta:
 
 ![image](https://github.com/user-attachments/assets/cf9a8592-68eb-4ffc-9467-0ccc9ce2f5a1)
