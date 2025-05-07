@@ -1,3 +1,19 @@
+TALLER JAVA 1
+La solución la encuentras en la carpeta:
+
+![image](https://github.com/user-attachments/assets/12ae6b44-3763-44d2-84d5-ca4a6eaef06b)
+
+
+
+
+TALLER JAVA 2
+La solución la encuentras en la carpeta:
+
+![image](https://github.com/user-attachments/assets/091300b7-4233-4a2d-92ed-7f1e48870a39)
+
+
+
+
 TALLER JAVA 3 
 La solución la encuentras en la carpeta:
 
