@@ -1,4 +1,5 @@
 TALLER JAVA 1
+
 La solución la encuentras en la carpeta:
 
 ![image](https://github.com/user-attachments/assets/76ff9630-226e-4115-bd28-3bc83bb7ff00)
@@ -8,6 +9,7 @@ La solución la encuentras en la carpeta:
 
 
 TALLER JAVA 5
+
 La solución la encuentras en la carpeta:
 
 ![image](https://github.com/user-attachments/assets/091300b7-4233-4a2d-92ed-7f1e48870a39)
