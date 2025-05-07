@@ -1,7 +1,8 @@
 TALLER JAVA 1
 La solución la encuentras en la carpeta:
 
-![image](https://github.com/user-attachments/assets/12ae6b44-3763-44d2-84d5-ca4a6eaef06b)
+![image](https://github.com/user-attachments/assets/76ff9630-226e-4115-bd28-3bc83bb7ff00)
+
 
 
 
