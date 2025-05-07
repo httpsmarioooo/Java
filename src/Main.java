@@ -55,7 +55,8 @@ public class Main {
 //        Jodido.mostrar();
 
 //        ListaDeTareas.mostrar();
-        Biblioteca.mostrar();
+//        Biblioteca.mostrar();
+        Directorio.mostrar();
 
 
         scanner.close(); // Cerrar Scanner

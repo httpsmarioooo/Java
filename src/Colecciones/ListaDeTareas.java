@@ -10,13 +10,13 @@ public class ListaDeTareas {
 //            2. Mostrar todas las tareas.
 //            3. Marcar una tarea como completada (eliminándola de la lista).
 //            4. Mostrar el número total de tareas pendientes
-    public static void agregarTareas (){
+private static void agregarTareas (){
         System.out.println("Ingrese la nueva tarea: ");
         String tarea = scanner.nextLine();
         tareas.add(tarea);
     }
 
-    public static void mostrarTareas(){
+    private static void mostrarTareas(){
         System.out.println("Estas son las tareas: ");
         if (tareas.isEmpty()){
             System.out.println("No hay tareas");
@@ -28,7 +28,7 @@ public class ListaDeTareas {
         }
     }
 
-    public static void eliminarTareas(){
+    private static void eliminarTareas(){
         System.out.println("Tarea a eliminar: ");
         String tarea = scanner.nextLine();
         if (tareas.remove(tarea)){
@@ -40,7 +40,6 @@ public class ListaDeTareas {
 
     public static void mostrar(){
         int opcion;
-        String opcionDos;
         do {
             System.out.println("Lista de productos");
             System.out.println("1. Agregar tarea");
