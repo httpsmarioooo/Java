@@ -112,6 +112,45 @@ public class Main {
 //        coche1.actualizarKilometraje(3000);
 
 
-        scanner.close(); // Cerrar Scanner
+        // Pedido con constructor vacío
+//        Pedido pedido1 = new Pedido();
+//        pedido1.setNumeroPedido(101);
+//        pedido1.setNombreCliente("Carlos Pérez");
+//        pedido1.agregarProducto("Camisa", 45.0);
+//        pedido1.agregarProducto("Pantalón", 60.0);
+//        pedido1.agregarProducto("Zapatos", 90.0);
+//
+//        pedido1.calcularDescuento(10); // válido
+//        pedido1.calcularDescuento(150); // inválido
+//        pedido1.mostrarInfo();
+//
+//        // Pedido con constructor parametrizado
+//        Pedido pedido2 = new Pedido(102, "María Gómez");
+//        pedido2.agregarProducto("Bolso", 70.0);
+//        pedido2.agregarProducto("Bufanda", 25.0);
+//
+//        pedido2.calcularDescuento(15); // válido
+//        pedido2.calcularDescuento(-5); // inválido
+//        pedido2.mostrarInfo();
+
+        // Cuenta 1 - Constructor vacío
+        CuentaBancaria cuenta1 = new CuentaBancaria();
+        cuenta1.setNumeroCuenta("001");
+        cuenta1.setNombreTitular("Ana Pérez");
+        cuenta1.setTipoCuenta("Ahorros");
+
+        cuenta1.depositar(500);
+        cuenta1.retirar(200);
+        cuenta1.retirar(-50); //  inválido
+        cuenta1.depositar(-10); //  inválido
+        cuenta1.mostrarDatos();
+
+        // Cuenta 2 - Constructor con parámetros
+        CuentaBancaria cuenta2 = new CuentaBancaria("002", "Carlos Ruiz", "Corriente");
+        cuenta2.depositar(1000);
+        cuenta2.retirar(1200); //  inválido
+        cuenta2.retirar(300);
+        cuenta2.mostrarDatos();
+        scanner.close();
     }
 }

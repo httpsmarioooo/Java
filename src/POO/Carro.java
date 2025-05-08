@@ -41,8 +41,6 @@ public class Carro {
         System.out.println("Año: " + año);
         System.out.println("Estado: " + (encendido ? "Encendido" : "Apagado"));
 
-
-
 //        if (encendido) {
 //            System.out.println("Estado: Encendido");
 //        } else {
