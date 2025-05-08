@@ -12,7 +12,9 @@ import Metodos.Jodido;
 import Colecciones.Biblioteca;
 import Colecciones.Directorio;
 import Colecciones.ListaDeTareas;
-
+import POO.Carro;
+import POO.Persona;
+import POO.Taller.*;
 
 public class Main {
     public static void main(String[]args){
@@ -56,7 +58,58 @@ public class Main {
 
 //        ListaDeTareas.mostrar();
 //        Biblioteca.mostrar();
-        Directorio.mostrar();
+//        Directorio.mostrar();
+
+
+        // Crear objeto de la clase Carro
+//        Carro miCarro = new Carro("Toyota", "Corolla", 2020);
+//        Carro miCarro2 = new Carro("Toyota2", "Corolla2", 2022);
+//        // Invocar métodos
+//        miCarro.mostrarInfo();
+//        miCarro.encender();
+//        miCarro.apagar();
+//        miCarro2.mostrarInfo();
+
+//        Persona personaUno = new Persona("Carlos","Valenvia",12);
+//        personaUno.mostrarInfoCompleta();
+
+
+//        Libro libroUno = new Libro("Peppa", "Pepe", 1600);
+//        libroUno.mostrarInfo();
+//
+//        // Primer intento de préstamo
+//        libroUno.prestar();
+//        libroUno.mostrarInfo();
+//
+//        // Segundo intento de préstamo (debe fallar)
+//        libroUno.prestar();
+//        libroUno.mostrarInfo();
+//
+//        // Devolver el libro
+//        libroUno.devolver();
+//        libroUno.mostrarInfo();
+
+
+        //  constructor vacío
+//        Auto coche1 = new Auto();
+//        coche1.setMarca("Toyota");
+//        coche1.setModelo("Yaris");
+//        coche1.setAnio(2015);
+//
+//        // constructor parametrizado
+//        Auto coche2 = new Auto("Honda", "Civic", 2020);
+//
+//        // Mostrar información normal y detallada
+//        System.out.println("Coche 1 (normal):");
+//        coche1.mostrarInfo();
+//
+//        System.out.println("Coche 2 (detallado):");
+//        coche2.mostrarInfo(true);
+//
+//        // Actualizar kilometraje del coche1
+//        coche1.actualizarKilometraje(12000);
+//        coche1.actualizarKilometraje(-500); // debería fallar
+//        coche1.actualizarKilometraje(3000);
 
 
         scanner.close(); // Cerrar Scanner
