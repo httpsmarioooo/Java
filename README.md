@@ -44,7 +44,8 @@ TALLER JAVA 9
 
 La solución la encuentras en la carpeta:
 
-![image](https://github.com/user-attachments/assets/e13855ba-ca9b-4147-b66d-36ceb47523eb)
+![image](https://github.com/user-attachments/assets/7b741540-cace-4599-bb8f-390755bf6909)
+
 
 
 
