@@ -1,0 +1,31 @@
+@startuml
+class Persona {
+  - pais: String
+  - apellido: String
+  - nombre: String
+  + getPais(): String
+  + getApellido(): String
+  + getNombre(): String
+}
+
+class Trabajador {
+  - codigoTrabajador: int
+  - cargo: String
+  + getCodigoTrabajador(): int
+  + setCodigoTrabajador(int): void
+  + getCargo(): String
+  + setCargo(String): void
+  + mostrar(): void
+}
+
+class Externo {
+- empresaAsociada: String
+- rut: int
++ get empresaAsociada() String
++ get rut() int
+}
+
+Trabajador --|> Persona
+Externo --|> Persona
+
+@enduml
