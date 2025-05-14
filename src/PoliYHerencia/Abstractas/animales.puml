@@ -1,0 +1,22 @@
+@startuml
+
+abstract class Animal {
+  - nombre: String
+  - peso: int
+  + getNombre(): String
+  + getPeso(): int
+  + hacerSonido(): String
+}
+
+class Perro {
+  + hacerSonido(): String
+}
+
+class Gato {
+  + hacerSonido(): String
+}
+
+Perro --|> Animal
+Gato --|> Animal
+
+@enduml

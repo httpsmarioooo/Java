@@ -8,6 +8,7 @@ import Colecciones.*;
 import OperadoresLogicos.*;
 import POO.*;
 import POO.Taller.*;
+import PoliYHerencia.Abstractas.*;
 
 public class Main {
     public static void main(String[]args){
@@ -145,5 +146,17 @@ public class Main {
 //        cuenta2.retirar(300);
 //        cuenta2.mostrarDatos();
 //        scanner.close();
+
+//
+//        Perro perro = new Perro("jose",12);
+//        System.out.println("Nombre: "+ perro.getNombre());
+//        System.out.println("Peso: " + perro.getPeso());
+//        System.out.println("Sonido: " + perro.hacerSonido());
+//
+//        Gati gati = new Gati("jose",12);
+//        System.out.println("Sonido gato: ");
+//        gati.hacerSonido();
+
+
     }
 }
